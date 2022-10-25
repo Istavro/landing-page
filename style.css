@@ -70,10 +70,13 @@ button {
     font-size: 16px;
     font-weight: 900;
     padding: 8px 24px;
-    border-color: #2474f5;
     border-radius: 10px;
     background-color: #3882f6;
     color: #f9faf8;
+}
+
+.container button {
+    border-color: #2474f5;
 }
 
 .information {
@@ -91,6 +94,7 @@ button {
     display: flex;
     justify-content: center;
     gap: 32px;
+    padding-bottom: 64px;
 }
 
 .square {
@@ -108,6 +112,7 @@ button {
     align-items: center;
     font-size: 20px;
     padding-bottom: 96px;
+    padding-bottom: 1px;
 }
 
 .quote-container {
@@ -121,10 +126,47 @@ button {
     font-size: 36px;
     font-style: italic;
     color: #1f2937;
+    font-weight: 100;
 }
 
 .author {
-    text-align: right;
     font-weight: 700;
+    font-size: 24px;
+    align-self: flex-end;
+}
+
+.sign-up {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5em 13em;
+}
+
+.modal {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 96px;
+    background-color: #3882F6;
+    padding: 48px 128px;
+    border-radius: 10px;
+}
+
+.right button {
+    border: 2px solid #FFF;
+}
+
+strong {
+    font-size: 24px;
+    color: #FFF;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 24px 0px;
+    background-color: #1f2937;
+    color: #FFF;
     font-size: 24px;
 }
